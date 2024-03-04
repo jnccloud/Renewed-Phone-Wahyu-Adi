@@ -2,7 +2,7 @@
 
 #### GPL v3 Compliant Distribution Notification
 
-Welcome to the repository for Renewed-Phone customized by Wahyu Adi. This document serves as an official notification and overview of the distribution of this software, which includes modifications made by the previous owner from whom I acquired it. The software is governed under the GNU General Public License version 3 (GPLv3), which is dedicated to protecting the freedoms to use, study, modify, and share software.
+Welcome to the repository for Renewed-Phone customized by Wahyu Adi, originally customized by [FjamZoo](https://github.com/Renewed-Scripts/qb-phone). This document serves as an official notification and overview of the distribution of this software, which includes modifications made by the previous owner from whom I acquired it. The software is governed under the GNU General Public License version 3 (GPLv3), which is dedicated to protecting the freedoms to use, study, modify, and share software.
 
 #### Background
 
@@ -44,5 +44,9 @@ Your contributions, feedback, and participation in this project are warmly welco
 ![image](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/7229b745-b945-4e30-9745-b391e2c8b9d2)
 ![image](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/a60ae863-fb31-48e2-bda8-98d8407f90c3)
 ![image](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/ca81545f-2b3f-487a-837b-d7f5677c9d00)
+![ab2](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/f9a7c7cb-5c89-42a1-8708-24c1277fc686)
+![ab3](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/9cdbef1e-1474-46db-92c4-60fef3dd87e4)
+![ab1](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/520b6179-aba5-4039-a7b6-69eb70696983)
+
 
 **CFX, if you ever look at this, here's a prime example of someone selling FiveM content outside of Tebex.**
