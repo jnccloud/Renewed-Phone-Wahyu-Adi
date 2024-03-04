@@ -39,4 +39,10 @@ Your contributions, feedback, and participation in this project are warmly welco
 # Keep FiveM Free and Open Source
 # Obey the GPL
 
-Castar
+**Proof of purchase:**
+
+![image](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/7229b745-b945-4e30-9745-b391e2c8b9d2)
+![image](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/a60ae863-fb31-48e2-bda8-98d8407f90c3)
+![image](https://github.com/jnccloud/Renewed-Phone-Wahyu-Abi/assets/58707473/ca81545f-2b3f-487a-837b-d7f5677c9d00)
+
+**CFX, if you ever look at this, here's a prime example of someone selling FiveM content outside of Tebex.**
