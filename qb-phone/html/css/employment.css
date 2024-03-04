@@ -1,0 +1,469 @@
+@import "https://assets.nopixel.net/web/fonts/gilroy/stylesheet.css";
+
+.employment-app {
+    display: none;
+    height: 108%;
+    width: 100%;
+    background: linear-gradient(158deg, rgba(24, 25, 46, 1) 0%, rgba(15, 18, 27, 1) 32%, rgba(24, 25, 46, 1) 68%, rgba(15, 18, 27, 1) 100%);
+    overflow: hidden;
+}
+
+.employment-header {
+    position: absolute;
+    height: 9vh;
+    width: 100%;
+    line-height: 13.5vh;
+    color: white;
+    font-size: 1.5vh;
+}
+
+#employment-search-text {
+    position: absolute;
+    text-align: center;
+    padding-left:1.7vh;
+    font-size: 2.4vh;
+    color: #FFFFFF;
+}
+#employment-search-icon {
+    float: right;
+    color: #34373e;
+    position: absolute;
+    right: 3.5vh;
+    top: 9.2vh;
+    z-index: 101;
+    background: #1c1f26;
+    padding: 0.5vh;
+    border-radius: 0.3vh;
+}
+#employment-search {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    top: 8.5vh;
+    width: 86%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: 4vh;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .8vh;
+    z-index: 100;
+    color: #FFFFFF;
+}
+
+.employment-lists {
+    position: absolute;
+    width: 85%;
+    height: 46.5vh;
+    top: 13.5vh;
+    margin: auto;
+    left: -0.5vh;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.employment-lists::-webkit-scrollbar {
+    display: none;
+}
+
+.employment-list {
+    position: relative;
+    width: 100%;
+    color: white;
+    height: 6vh;
+    margin-bottom: 8px;
+    background-color: #181b22;
+    border-radius: 0.5vh;
+}
+.employment-list:hover {
+    background: #222630;
+}
+
+.employment-job-list {
+    position: relative;
+    width: 100%;
+    color: white;
+    height: 6vh;
+    margin-bottom: 8px;
+    background-color: #181b22;
+    transition: all 0.15s ease 0s;
+    border-radius: 0.5vh;
+}
+
+.employment-job-list:hover {
+    background-color: #15222e;
+}
+
+.employment-icon {
+    position: absolute;
+    margin: .7vh;
+    margin-left: 1.0vh;
+    text-align: center;
+    line-height: 4.5vh;
+    color: white;
+    font-size: 4.0vh;
+}
+
+.employment-job-icon {
+    position: absolute;
+    margin: .7vh;
+    margin-left: 1.5vh;
+    text-align: center;
+    line-height: 4.5vh;
+    color: white;
+    font-size: 3.5vh;
+}
+
+.employment-label {
+    position: absolute;
+    left: 7.4vh;
+    color: white;
+    line-height: 2.7vh;
+    font-size: 1.4vh;
+    max-width: 65%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.employment-grade {
+    position: absolute;
+    left: 7.4vh;
+    color: white;
+    line-height: 8vh;
+    font-size: 1.2vh;
+    max-width: 65%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+/* NEW HEADER SHIT */
+
+#employment-job-search-text {
+    position: absolute;
+    text-align: center;
+    width:100%;
+    font-size: 2.4vh;
+    color: #FFFFFF;
+}
+
+#employment-job-search-icon {
+    float: right;
+    color: #34373e;
+    position: absolute;
+    right: 3.5vh;
+    top: 9.2vh;
+    z-index: 101;
+    background: #1c1f26;
+    padding: 0.5vh;
+    border-radius: 0.3vh;
+}
+
+#employment-job-back-icon {
+    position: absolute;
+    top: 5.9vh;
+    left: 2.5vh;
+    font-size: 2.1vh;
+    color: #FFFFFF;
+}
+
+#employment-job-extras-icon {
+    position: absolute;
+    top: 6vh;
+    right: 2.5vh;
+    font-size: 2.1vh;
+    color: #FFFFFF;
+}
+
+#employment-job-search {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    top: 8.5vh;
+    width: 86%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: 4vh;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .8vh;
+    z-index: 100;
+    color: #FFFFFF;
+}
+
+/* DROP DOWN MENU */
+
+.phone-dropdown-menu{
+    display: none;
+    position: absolute;
+    padding-left: 9vh;
+    padding-top: 6vh;
+    width: 80px;
+    height: 100px;
+}
+ 
+.list-content{
+    position: relative;
+    color: white;
+    height: 35px;
+    width: 180px;
+    overflow: hidden;
+    margin: auto;
+    font-family: 'Gilroy';
+    font-size: 1.3vh;
+    background-color: #484444;
+    z-index:102;
+}
+.list-content >i{
+    padding:  10px 10px 0px 10px;
+
+}
+
+.list-content:hover{
+    background-color: #585454;
+}
+
+/* Action Buttons */
+
+.employment-action-buttons {
+    visibility: hidden;
+    position: absolute;
+    height: 108%;
+    width: 100%;
+    padding-bottom: 5.1vh;
+    left: 0;
+    right: 0;
+}
+
+.employment-action-buttons > i {
+    position: relative;
+    float: left;
+    margin-left: 2.6vh;
+    left: 4vh;
+    top: 2.1vh;
+    font-size: 1.8vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.employment-action-buttons > i:hover {
+    color: #2c465f;
+}
+
+.employment-job-list:hover .employment-action-buttons {
+    background: #0d1218c0;
+    visibility: visible;
+}
+
+/* Grade Dropdown Shit */
+
+.grade-dropdown {
+    position: relative;
+    margin-left: 1vh;
+    margin-bottom: 10%;
+    width: 90%;
+    line-height: 3.0vh;
+    transition: all .5s ease;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+    background-color: rgb(11, 14, 21);
+    border-radius:0.5vh;
+    outline: none;
+    top:10vh;
+}
+
+.grade-dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px
+}
+
+.grade-dropdown .select > i {
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 34px
+}
+
+.grade-dropdown:active {
+    background-color: rgba(123,171,248,1)
+}
+
+.grade-dropdown.active:hover,
+.grade-dropdown.active {
+    background-color: rgba(123,171,248,1)
+}
+
+.grade-dropdown.active .select > i {
+    transform: rotate(-90deg)
+}
+
+.grade-dropdown .grade-dropdown-menu {
+    position: absolute;
+    background-color: #333943;
+    color: white;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    overflow: hidden;
+    display: none;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 9
+}
+
+.grade-dropdown .grade-dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+
+.grade-dropdown .grade-dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+
+.grade-dropdown .grade-dropdown-menu li:hover {
+    background-color: #505969
+}
+
+.grade-dropdown .grade-dropdown-menu li:active {
+    background-color: #505969
+}
+
+.pay-employee-amount{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+}
+.pay-employee-note{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:8vh;
+}
+.hire-worker-stateid{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:8vh;
+}
+
+.employment-chargemf-stateid{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:3vh;
+}
+.employment-chargemf-amount{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:8vh;
+}
+.employment-chargemf-note{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:13vh;
+}
+
+.employment-btn {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display:block;
+    top:30vh
+  }

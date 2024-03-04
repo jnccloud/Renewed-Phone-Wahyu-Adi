@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "https://assets.nopixel.net/web/fonts/gilroy/stylesheet.css";
+.job-app {
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../img/backgrounds/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(158deg, rgba(24,25,46,1) 0%, rgba(15,18,27,1) 32%, rgba(24,25,46,1) 68%, rgba(15,18,27,1) 100%); */
+}
+ 
+.job-header {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    /* top: 8%; */
+    left: 0;
+    right: 0;
+    color: white;
+    /* font-family: 'Gilroy'; */
+    font-size: 1.5vh;
+    /* margin: 0 auto; */
+}
+
+.job-header > p {
+    text-align: center;
+    line-height: 12vh;
+    text-indent: 2vh;
+    font-family: 'Gilroy';
+    font-size: 2vh;
+  /*   margin: 0 0 0 9vh; */
+}
+
+.job-header > span {
+    position: absolute;
+    top: 8vh;
+    left: 5vh;
+    font-size: 1.2vh;
+    height: 2vh;
+    color: white;
+}
+
+.job-list {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 3%;
+    border-radius: .5vh;
+    overflow-y: scroll;
+}
+
+.job-list::-webkit-scrollbar {
+    display: none;
+}
+ 
+.job-class-body-job{
+    color: #ffffff;
+    margin-bottom: 0.5vh;
+    padding: 1vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(25,103,117);
+    background: linear-gradient(101deg, rgba(25,103,117,1) 0%, rgba(26,137,149,0.26094187675070024) 85%);
+    overflow: hidden;
+    /* box-shadow: 0rem 0rem 0.2rem 0.02rem #000000a6; */
+}
+.job-class-body-job:hover{
+    background: rgb(28,136,148);
+    background: radial-gradient(circle, rgba(28,136,148,1) 0%, rgba(8,203,215,1) 100%);
+}
+
+.job-showitems-other{
+    margin-left: 35%;
+    position: absolute;
+    display: initial;
+    visibility: hidden;
+}
+
+.job-title {
+    font-size: 14px;
+}
+
+#job-icon-class2{
+    margin-left: 30%;
+    font-size: 275%;
+}
+
+#job-icon-class{
+    float: inline-end;
+    font-size: 1.8vh;
+    padding: 0.8vh;
+    border-radius: 0.3vh;
+    width: 4vh;
+    height: auto;
+}
+#job-icon-left-class{
+    text-align: center;
+    font-size: 1.8vh;
+    background: #15586D;
+    padding: 0.8vh;
+    border-radius: 0.3vh;
+    width: 4vh;
+    height: auto;
+}
+.job-class-body-job:hover .job-showitems-other{
+    visibility: visible;
+}
+
+#job-icon-class:hover{
+    color: #8ee074;
+}
+
+.jobcenter-input-group-name{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:2vh;
+}
+
+.jobcenter-input-password {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:7vh;
+}
+.jobcenter-input-join-password {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+}
+
+.jobcenter-input-password2 {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:12vh;
+}
+.groups-menu-body {
+    display: none;
+    position: absolute;
+    height: 40%;
+    width: 90%;
+    background: linear-gradient(158deg, rgba(24,25,46,1) 0%, rgba(15,18,27,1) 32%, rgba(24,25,46,1) 68%, rgba(15,18,27,1) 100%);
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.247);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 8.5vh;
+    border-radius: 0.5vh;
+    overflow: hidden;
+    z-index: 700;
+    border: 1px solid rgba(123,171,248,1);
+}
+.groups-menu-main {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 1vh;
+    left: 50%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 100%;
+    border-radius: .5vh;
+}

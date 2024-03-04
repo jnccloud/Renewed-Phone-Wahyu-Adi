@@ -1,0 +1,148 @@
+@import "https://assets.nopixel.net/web/fonts/gilroy/stylesheet.css";
+
+.wenmo-app {
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(158deg, rgba(24,25,46,1) 0%, rgba(15,18,27,1) 32%, rgba(24,25,46,1) 68%, rgba(15,18,27,1) 100%);
+}
+
+.wenmo-header {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    left: 6.5%;
+    right: 0;
+    color: white;
+    font-size: 1.8vh;
+}
+
+.wenmo-header > p {
+    line-height: 12vh;
+    text-indent: 2vh;
+    margin: 0 0 0 9vh;
+}
+
+.wenmo-header > span {
+    position: absolute;
+    top: 8vh;
+    left: 9vh;
+    font-size: 1.2vh;
+    height: 2vh;
+    color: white;
+}
+
+.wenmo-list {
+    position: absolute;
+    width: 90%;
+    height: 84%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 3%;
+    border-radius: .5vh;
+    overflow-y: scroll;
+}
+
+.wenmo-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.wenmo-send-money-btn{
+    position: absolute;
+    bottom: 0;
+    top: 2vh;
+    right: -1.5vh;
+    width: 3.5vh;
+    height: 3.5vh;
+    margin: 2.2vh;
+    z-index: 101;
+    border-radius: 0.5vh;
+    text-align: center;
+    transition: .2s;
+    background: linear-gradient(180deg, rgba(67,120,204,1) 0%, rgba(124,166,241,1) 100%);
+}
+
+.wenmo-send-money-btn:hover{
+    color: rgb(187, 187, 187);
+}
+
+.wenmo-send-money-btn > i {
+    line-height: 3.5vh;
+    font-size: 2vh;
+    color: white;
+}
+
+.wenmo-form-style-body{
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+}
+
+.wenmo-time-class-body{
+    display: inline;
+    float: right;
+    color: whitesmoke;
+}
+
+.wenmo-input-one{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+}
+.wenmo-input-two{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:8vh;
+}
+.wenmo-input-three{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:13vh;
+}

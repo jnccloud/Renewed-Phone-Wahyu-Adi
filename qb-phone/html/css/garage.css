@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.garage-icon {
+    margin-top: .5vh;
+    width: 3.4vh;
+}
+
+.garage-app {
+    display: none;
+    height: 108%;
+    width: 100%;
+    background: linear-gradient(158deg, rgba(24, 25, 46, 1) 0%, rgba(15, 18, 27, 1) 32%, rgba(24, 25, 46, 1) 68%, rgba(15, 18, 27, 1) 100%);
+    overflow: hidden;
+}
+
+.garage-app-header {
+    position: absolute;
+    height: 9vh;
+    width: 100%;
+    text-align: center;
+    line-height: 13.5vh;
+    color: white;
+    font-size: 1.5vh;
+}
+
+.garage-homescreen {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0vh;
+}
+
+.garage-vehicles {
+    position: absolute;
+    width: 86.0%;
+    height: 46.5vh;
+    top: 13vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.garage-vehicles::-webkit-scrollbar {
+    display: none;
+}
+
+.garage-vehicle {
+    padding: 3px;
+    width: 100%;
+    background: rgb(0,99,0);
+    background: linear-gradient(97deg, rgba(0,99,0,1) 0%, rgba(0,122,8,0.43461134453781514) 100%);
+    border-radius: 0.5vh;
+    margin-bottom: 3.5%;
+}
+.garage-vehicle:hover {
+    background: rgb(0,99,0);
+}
+
+.garage-vehicle-icon {
+    position: relative;
+    line-height: 6vh;
+    left: 0vh;
+    padding-top: 1.1vh;
+    padding-bottom: 1.1vh;
+    padding-left: 1.0vh;
+    padding-right: 2.6vh;
+    color: white;
+    font-size: 3.0vh;
+    transition: .05s linear;
+}
+
+.garage-vehicle-name {
+    position: absolute;
+    color: white;
+    line-height: 7.5vh;
+    font-size: 1.4vh;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight:600;
+    font-family:'Gilroy';
+}
+
+.garage-plate-name {
+    position: absolute;
+    color: white;
+    line-height: 4.5vh;
+    font-size: 1.4vh;
+    font-weight:600;
+    font-family:'Gilroy';
+}
+
+.garage-state-name {
+    position: absolute;
+    right: 1.0vh;
+    color: white;
+    line-height: 5.5vh;
+    font-size: 1.2vh;
+    font-weight:600;
+    font-family:'Gilroy';
+}
+
+#garage-search {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    top: 8.5vh;
+    width: 86%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: 4vh;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .8vh;
+    z-index: 100;
+    color: #FFFFFF;
+}
+
+#garage-search-icon {
+    float: right;
+    color: #34373e;
+    position: absolute;
+    right: 3.5vh;
+    top: 9.3vh;
+    z-index: 101;
+    background: #1c1f26;
+    padding: 0.5vh;
+    border-radius: 0.3vh;
+}
+
+/* Click Block CSS */
+
+.garage-block {
+    padding: 0 18px;
+    /*line-height: 5vh;*/
+    display: none;
+    overflow: hidden;
+}
+
+.garage-name {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.garage-name>i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.garage-plate {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.garage-plate>i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.garage-fuel {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.garage-fuel>i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.garage-engine {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.garage-engine>i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.garage-body {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.garage-body>i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.garage-payments {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+    margin-bottom: 7%;
+}
+
+.garage-payments>i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+ 
+.garage-box {
+    transition: 0.25s;
+    border-radius: 0.5vh;
+    color: white;
+    font-family: 'Gilroy';
+    font-size: 1.1vh;
+    margin-bottom: 4%;
+    width:85%;
+    text-align:center;
+}
+
+.box-track {
+    background: linear-gradient(0deg, rgba(18,115,92,1) 0%, rgba(15,133,105,1) 50%, rgba(18,115,92,1) 100%);
+    padding: 4.0%;
+}
+
+.box-sellvehicle {
+    background: linear-gradient(0deg, rgb(141, 23, 23) 0%, rgb(155, 19, 19) 50%, rgb(141, 23, 23) 100%);
+    padding: 4.0%;
+}
+
+.garage-sellvehicle-stateid {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:5vh;
+}
+
+.garage-sellvehicle-price{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: auto;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:10vh;
+}

@@ -1,0 +1,295 @@
+@import "https://assets.nopixel.net/web/fonts/gilroy/stylesheet.css";
+
+.crypto-app {
+    display: none;
+    height: 108%;
+    width: 100%;
+    background: linear-gradient(158deg, rgba(24,25,46,1) 0%, rgba(15,18,27,1) 32%, rgba(24,25,46,1) 68%, rgba(15,18,27,1) 100%);
+    overflow: hidden;
+}
+ 
+.crypto-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 9vh;
+}
+
+#crypto-search-text {
+    position: absolute;
+    top: 4.7vh;
+    left: 3.0vh;
+    font-family: 'Gilroy';
+    font-size: 1.2vh;
+    color: #FFFFFF;
+}
+#crypto-search-icon {
+    float: right;
+    color: #34373e;
+    position: absolute;
+    right: 3.5vh;
+    top: 8.8vh;
+    z-index: 1;
+    background: #1c1f26;
+    padding: 0.5vh;
+    border-radius: 0.3vh;
+}
+#crypto-search {
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: 2px solid #34373e;
+    top: 8vh;
+    width: 86%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: 4vh;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .8vh;
+    z-index: 0;
+    color: #FFFFFF;
+}
+ 
+.crypto-lists {
+    position: absolute;
+    width: 86.0%;
+    height: 46.5vh;
+    top: 13vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.crypto-lists::-webkit-scrollbar {
+    display: none;
+}
+
+.crypto-list {
+    padding: 3px;
+    width: 100%;
+    background: rgb(255,153,0);
+    background: linear-gradient(97deg, rgba(255,153,0,1) 0%, rgba(255,153,0,0.43461134453781514) 100%);
+    border-radius: 0.5vh;
+    margin-bottom: 3.5%;
+}
+
+.crypto-icon {
+    position: relative;
+    line-height: 6vh;
+    left: 0vh;
+    padding-top: 1.1vh;
+    padding-bottom: 1.1vh;
+    padding-left: 1.0vh;
+    padding-right: 2.6vh;
+    color: white;
+    font-size: 3.0vh;
+    transition: .05s linear;
+}
+
+.crypto-vehicle:hover {
+    background-color: #0d1218c0;
+}
+
+.crypto-label {
+    position: absolute;
+    color: white;
+    line-height: 7.5vh;
+    font-size: 1.4vh;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight:600;
+    font-family:'Gilroy';
+}
+
+.crypto-value {
+    position: absolute;
+    color: white;
+    line-height: 4.5vh;
+    font-size: 1.4vh;
+    font-weight:600;
+    font-family:'Gilroy';
+}
+
+.crypto-block {
+    padding: 0 18px;
+    /*line-height: 5vh;*/
+    display: none;
+    overflow: hidden;
+    margin-bottom: 1.4vh;
+}
+
+/* Click Block CSS */
+
+.crypto-abbrev {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.crypto-abbrev > i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.crypto-extralabel {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.crypto-extralabel > i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.crypto-current {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+}
+
+.crypto-current > i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.crypto-cost {
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    font-size:1.3vh;
+    font-family:'Gilroy';
+    margin-bottom: 7%;
+}
+
+.crypto-cost > i {
+    padding-right: 0.8vh;
+    font-size: 1.3vh;
+    color: white;
+}
+
+.crypto-box {
+    transition: 0.25s;
+    border-radius: 0.5vh;
+    color: white;
+    font-family: 'Gilroy';
+    font-size: 1.1vh;
+    margin-bottom: 4%;
+    width:85%;
+    text-align:center;
+}
+
+.box-exchange{
+    background: linear-gradient(0deg, rgb(141, 94, 23) 0%, rgb(155, 96, 19) 50%, rgb(141, 94, 23) 100%);
+    padding: 4.0%;
+}
+
+.box-purchase{
+    background: linear-gradient(0deg, rgba(18,115,92,1) 0%, rgba(15,133,105,1) 50%, rgba(18,115,92,1) 100%);
+    padding: 4.0%;
+}
+
+.box-sell{
+    background: linear-gradient(0deg, rgb(141, 23, 23) 0%, rgb(155, 19, 19) 50%, rgb(141, 23, 23) 100%);
+    padding: 4.0%;;
+}
+.crypto-amount-buy{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+}
+
+.crypto-amount-sell{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+}
+.crypto-stateid-exchange{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+}
+.crypto-amount-exchange{
+    display: block;
+    position: absolute;
+    background: rgb(11, 14, 21);
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    border-radius: 0.5vh;
+    outline: none;
+    text-indent: .5vh;
+    z-index: 100;
+    color: #FFFFFF;
+    height: 4vh;
+    top:8vh;
+}

@@ -1,0 +1,211 @@
+@import "https://assets.nopixel.net/web/fonts/gilroy/stylesheet.css";
+
+.details-app {
+    display: none;
+    height: 108%;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(158deg, rgba(24,25,46,1) 0%, rgba(15,18,27,1) 32%, rgba(24,25,46,1) 68%, rgba(15,18,27,1) 100%);
+    -moz-user-select: -moz-text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+
+
+
+.details-header {
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    top: 8%;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 1.3vh;
+    margin: 0 auto;
+}
+
+
+.details-header-main {
+    position: absolute;
+    width: 90%;
+    top: 0%;
+    left: 0;
+    right: 7%;
+    color: white;
+    font-size: 2.4vh;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+}
+
+.details-header-secondary {
+    position: absolute;
+    width: 90%;
+    top: 40%;
+    left: 0;
+    right: 7%;
+    color: white;
+    font-size: 1.5vh;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+}
+
+.details-header-license {
+    position: absolute;
+    width: 90%;
+    height: 30%;
+    top: 27vh;
+    right: 7%;
+    color: white;
+    font-size: 1.5vh;
+    margin: 0 auto;
+    font-family: 'Gilroy';
+}
+
+.details-header>p {
+    line-height: 12vh;
+    text-indent: 2vh;
+    margin: 0 0 0 9vh;
+    font-family: 'Gilroy';
+}
+
+.details-header>span {
+    position: absolute;
+    top: 8vh;
+    left: 9vh;
+    font-size: 1.2vh;
+    height: 2vh;
+    color: white;
+    font-family: 'Gilroy';
+}
+
+.details-list {
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    /* Ensures the box expands to contain floated elements */
+}
+
+.details-list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.details-money-types {
+    position: absolute;
+    width: 110%;
+    top: 17vh;
+    /* Adjust the percentage to move it down */
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.details-license-types {
+    position: absolute;
+    width: 110%;
+    height:200%;
+    top: 42vh;
+    /* Adjust the percentage to move it down */
+    left: 52%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+.details-value {
+    float: right;
+    clear: right;
+    font-family: 'Gilroy';
+}
+
+.details-label {
+    float: left;
+    font-family: 'Gilroy';
+}
+
+.details-box {
+    margin-bottom: 0.5vh;
+    padding: 0.8vh 1.5vh;
+    /* Adjust the padding here */
+    border-radius: 0.463vh;
+    background: rgb(11, 14, 21);
+    overflow: hidden;
+    /* Ensures the box expands to contain floated elements */
+}
+
+
+.details-moneys-body-main {
+    display: block;
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.details-icon-class {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+}
+
+.details-text-class {
+    display: inline;
+    width: 90%;
+}
+
+.details-license-body-main {
+    display: block;
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 3vh;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.details-license-icon-class {
+    display: inline;
+    text-align: right;
+    width: 10%;
+}
+
+.details-license-text-class {
+    display: inline-block;
+    width: 85%;
+}
+
+.details-text-license {
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.details-section {
+    margin-bottom: 1.8519vh;
+    /* Adjust spacing between sections */
+}
+
+.details-section h2 {
+    color: white;
+    font-size: 1.2vh;
+    /* Adjust font size */
+    margin-bottom: 0.9259vh;
+    font-family: 'Gilroy';
+    /* Adjust spacing between header and content */
+}
+
+.valid-text {
+    background: #15661b;
+    border-radius: 0.3vh;
+    padding: 0.4vh;
+    font-family: 'Gilroy';
+    font-size: 1.3vh;
+}
